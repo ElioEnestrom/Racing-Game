@@ -3,6 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[System.Serializable]
+public class AxleInfo
+{
+    public WheelCollider leftWheel;
+    public WheelCollider rightWheel;
+    public bool steering; // checks if this wheel is supposed to apply a steer angle
+    public bool motor; // checks if this wheel is attached to the motor
+}
+
 public class CarController : MonoBehaviour
 {
     public List<AxleInfo> axleInfos; // the information about each indivual axle
@@ -11,20 +20,36 @@ public class CarController : MonoBehaviour
 
     public InputAction carControll;
 
-    // an OnEnable and OnDisable function for the input system to work
+    public void ApplyLocalPositionToVisuals(WheelCollider collider)
+    {
+        if (collider.transform.childCount == 0)
+        {
+            return;
+        }
+
+        Transform visualWheel = collider.transform.GetChild(0);
+
+        Vector3 position;
+        Quaternion rotation;
+        collider.GetWorldPose(out position, out rotation);
+
+        visualWheel.transform.position = position;
+        visualWheel.transform.rotation = rotation;
+    }
+
     private void OnEnable()
     {
         carControll.Enable();
-    }
-
-    private void OnDisable()
-    {
-        carControll.Disable();
     }
     public void FixedUpdate()
     {
         float motor = maxMotorTorque * carControll.ReadValue<Vector2>().y;
         float steering = maxSteeringAngle * carControll.ReadValue<Vector2>().x;
+
+        if (carControll.ReadValue<Vector2>() == Vector2.zero)
+        {
+
+        }
 
         foreach (AxleInfo axleInfo in axleInfos)
         {
@@ -39,14 +64,8 @@ public class CarController : MonoBehaviour
                 axleInfo.leftWheel.motorTorque = motor;
                 axleInfo.rightWheel.motorTorque = motor;
             }
+        ApplyLocalPositionToVisuals(axleInfo.leftWheel);
+        ApplyLocalPositionToVisuals(axleInfo.rightWheel);
         }
     }
-}
-[System.Serializable]
-public class AxleInfo
-{
-    public WheelCollider leftWheel;
-    public WheelCollider rightWheel;
-    public bool steering; // checks if this wheel is supposed to apply a steer angle
-    public bool motor; // checks if this wheel is attached to the motor
 }
