@@ -46,11 +46,6 @@ public class CarController : MonoBehaviour
         float motor = maxMotorTorque * carControll.ReadValue<Vector2>().y;
         float steering = maxSteeringAngle * carControll.ReadValue<Vector2>().x;
 
-        if (carControll.ReadValue<Vector2>() == Vector2.zero)
-        {
-
-        }
-
         foreach (AxleInfo axleInfo in axleInfos)
         {
             //Handles the steering
