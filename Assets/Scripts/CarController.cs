@@ -36,7 +36,6 @@ public class CarController : MonoBehaviour
         visualWheel.transform.position = position;
         visualWheel.transform.rotation = rotation;
     }
-
     private void OnEnable()
     {
         carControll.Enable();
@@ -45,6 +44,8 @@ public class CarController : MonoBehaviour
     {
         float motor = maxMotorTorque * carControll.ReadValue<Vector2>().y;
         float steering = maxSteeringAngle * carControll.ReadValue<Vector2>().x;
+        //float motor = maxMotorTorque * Input.GetAxis("Vertical");
+        //float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
 
         foreach (AxleInfo axleInfo in axleInfos)
         {
