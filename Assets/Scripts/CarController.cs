@@ -15,10 +15,13 @@ public class AxleInfo
 public class CarController : MonoBehaviour
 {
     public List<AxleInfo> axleInfos; // the information about each indivual axle
+    public float lerpWheel, lerpMin, lerpMax, lerpSteering; // lerp for smooth wheel movement
     public float maxMotorTorque; // maximum torque the motor can apply to a wheel
     public float maxSteeringAngle; //maximum steer angle the wheel can have
 
     public InputAction carControll;
+
+    public GameObject explosion;
 
     public void ApplyLocalPositionToVisuals(WheelCollider collider)
     {
@@ -42,8 +45,21 @@ public class CarController : MonoBehaviour
     }
     public void FixedUpdate()
     {
+        lerpSteering = Mathf.Clamp(lerpSteering, 0, 1);
+        lerpWheel = Mathf.Lerp(lerpMin, lerpMax, lerpSteering);
+        lerpSteering += carControll.ReadValue<Vector2>().x * 0.1f;
+
+
         float motor = maxMotorTorque * carControll.ReadValue<Vector2>().y;
-        float steering = maxSteeringAngle * carControll.ReadValue<Vector2>().x;
+        float steering = maxSteeringAngle * lerpWheel;
+
+        if (carControll.ReadValue<Vector2>().x == 0f)
+        {
+            lerpSteering += lerpWheel / -10;
+        }
+
+        Debug.Log(motor);
+        Debug.Log(carControll.ReadValue<Vector2>());
         //float motor = maxMotorTorque * Input.GetAxis("Vertical");
         //float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
 
@@ -62,6 +78,14 @@ public class CarController : MonoBehaviour
             }
         ApplyLocalPositionToVisuals(axleInfo.leftWheel);
         ApplyLocalPositionToVisuals(axleInfo.rightWheel);
+        }
+    }
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Wall")
+        {
+            Instantiate(explosion);
+            Destroy(this.gameObject);
         }
     }
 }
