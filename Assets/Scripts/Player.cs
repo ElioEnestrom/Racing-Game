@@ -4,24 +4,30 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public GameObject explosion;
+    public GameObject player, explosion;
+    public Transform respawnPoint;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    public void OnTriggerEnter(Collider other)
+    {
+        respawnPoint = other.transform;
+    }
     public void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Wall")
         {
             Instantiate(explosion, transform.position, transform.rotation);
-            Destroy(this.gameObject);
+            player.transform.position = respawnPoint.transform.position;
+            player.transform.rotation = respawnPoint.transform.rotation;
         }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

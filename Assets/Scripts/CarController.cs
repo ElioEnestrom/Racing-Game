@@ -21,8 +21,6 @@ public class CarController : MonoBehaviour
 
     public InputAction carControll;
 
-    public GameObject explosion;
-
     public void ApplyLocalPositionToVisuals(WheelCollider collider)
     {
         if (collider.transform.childCount == 0)
@@ -78,14 +76,6 @@ public class CarController : MonoBehaviour
             }
         ApplyLocalPositionToVisuals(axleInfo.leftWheel);
         ApplyLocalPositionToVisuals(axleInfo.rightWheel);
-        }
-    }
-    public void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Wall")
-        {
-            Instantiate(explosion);
-            Destroy(this.gameObject);
         }
     }
 }

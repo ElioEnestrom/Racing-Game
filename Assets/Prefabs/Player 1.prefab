@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 939014521350097289}
   - component: {fileID: 2533349004796614838}
   - component: {fileID: 3449033313203053621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2643650463931510907}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e544b3ac8c05280479ffe36317165eae, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -118,7 +118,8 @@ GameObject:
   - component: {fileID: 2657238456871350543}
   - component: {fileID: 4085190340295469451}
   - component: {fileID: 5057137667039478953}
-  m_Layer: 0
+  - component: {fileID: 5274992234596235759}
+  m_Layer: 6
   m_Name: Player 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,6 +275,22 @@ MonoBehaviour:
       m_Action: Car Controll
       m_Flags: 8
     m_Flags: 0
+  explosion: {fileID: 5825236514883314608, guid: 51304116026ec1e4d8b836267b66c668, type: 3}
+--- !u!114 &5274992234596235759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7988630141914313221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccf658d79f8dff4e97eb6eb8fbdce93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7988630141914313221}
+  explosion: {fileID: 5825236514883314608, guid: 51304116026ec1e4d8b836267b66c668, type: 3}
+  respawnPoint: {fileID: 0}
 --- !u!1001 &5198798145067897060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -282,6 +299,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3318235742220395319}
     m_Modifications:
+    - target: {fileID: 153306513738173016, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 314552999211407531, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 628888299704263683, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 755100671124630020, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2702495543334730821, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3023668354812821980, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
       propertyPath: m_ForwardFriction.m_ExtremumSlip
       value: 0.001
@@ -330,9 +367,29 @@ PrefabInstance:
       propertyPath: m_ForwardFriction.m_ExtremumSlip
       value: 0.001
       objectReference: {fileID: 0}
+    - target: {fileID: 3833692298489464611, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874898962387764192, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7062685253263519985, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
       propertyPath: m_Name
       value: Wheel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062685253263519985, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180742640622712929, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622085806203066491, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8095630728868539675, guid: 2a073b993d6464f4a8b2d88cc0eb1774, type: 3}
       propertyPath: m_ForwardFriction.m_ExtremumSlip
