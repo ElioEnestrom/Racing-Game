@@ -1086,7 +1086,7 @@ Transform:
   m_GameObject: {fileID: 638014202}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -743.5, y: -168.1, z: -148.77756}
+  m_LocalPosition: {x: -743.5, y: -168.79, z: -148.77756}
   m_LocalScale: {x: 0.69970936, y: 0.48212588, z: 0.48212588}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2143,13 +2143,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1111564072}
         m_TargetAssemblyTypeName: SoundSlider, Assembly-CSharp
-        m_MethodName: SetVolume
-        m_Mode: 4
+        m_MethodName: SetVolumeFromSlider
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 40
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2

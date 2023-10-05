@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 28519935}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 59439792}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 70824696}
   m_Layer: 0
   m_Name: RespawnWall 10
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 180215191}
   m_Layer: 0
   m_Name: RespawnWall 7
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 410412208}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 443914128}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -646,7 +646,7 @@ GameObject:
   - component: {fileID: 468281793}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -751,7 +751,7 @@ GameObject:
   - component: {fileID: 477084539}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 614855718}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -961,7 +961,7 @@ GameObject:
   - component: {fileID: 677582223}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 711317133}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1262,7 +1262,7 @@ GameObject:
   - component: {fileID: 726712298}
   m_Layer: 0
   m_Name: RespawnWall 5
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1298,7 +1298,7 @@ GameObject:
   - component: {fileID: 736396750}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1483,7 +1483,7 @@ GameObject:
   - component: {fileID: 747069034}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1585,7 +1585,7 @@ GameObject:
   - component: {fileID: 764254722}
   m_Layer: 0
   m_Name: RespawnWall 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1621,7 +1621,7 @@ GameObject:
   - component: {fileID: 784880954}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1726,7 +1726,7 @@ GameObject:
   - component: {fileID: 851942088}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1828,7 +1828,7 @@ GameObject:
   - component: {fileID: 913779327}
   m_Layer: 0
   m_Name: RespawnWall 4
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1953,7 +1953,7 @@ GameObject:
   - component: {fileID: 1179620684}
   m_Layer: 0
   m_Name: Respawning
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2028,7 +2028,7 @@ GameObject:
   - component: {fileID: 1280717053}
   m_Layer: 0
   m_Name: RespawnWall 6
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2061,7 +2061,7 @@ GameObject:
   - component: {fileID: 1434782772}
   m_Layer: 0
   m_Name: RespawnWall 3
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2097,7 +2097,7 @@ GameObject:
   - component: {fileID: 1459403697}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2199,7 +2199,7 @@ GameObject:
   - component: {fileID: 1484150758}
   m_Layer: 0
   m_Name: RespawnWall 11
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2212,15 +2212,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484150757}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000007450581, y: -0.97758293, z: -0.000000029802322, w: 0.21055073}
-  m_LocalPosition: {x: -29.474957, y: 4.994063, z: 12.186175}
+  m_LocalRotation: {x: -0, y: 0.21055043, z: -0, w: 0.977583}
+  m_LocalPosition: {x: -28.505852, y: 4.9937806, z: 10.205172}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 851942087}
   - {fileID: 614855717}
   m_Father: {fileID: 1179620684}
-  m_LocalEulerAnglesHint: {x: 0, y: -155.691, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 24.309, z: 0}
 --- !u!1 &1521416231
 GameObject:
   m_ObjectHideFlags: 0
@@ -2235,7 +2235,7 @@ GameObject:
   - component: {fileID: 1521416233}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2337,7 +2337,7 @@ GameObject:
   - component: {fileID: 1601626925}
   m_Layer: 0
   m_Name: RespawnWall 8
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2373,7 +2373,7 @@ GameObject:
   - component: {fileID: 1647976560}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2478,7 +2478,7 @@ GameObject:
   - component: {fileID: 1695861211}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2583,7 +2583,7 @@ GameObject:
   - component: {fileID: 1719862146}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2688,7 +2688,7 @@ GameObject:
   - component: {fileID: 1739252857}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2793,7 +2793,7 @@ GameObject:
   - component: {fileID: 1741926331}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2895,7 +2895,7 @@ GameObject:
   - component: {fileID: 1795911192}
   m_Layer: 0
   m_Name: RespawnWall 9
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2931,7 +2931,7 @@ GameObject:
   - component: {fileID: 1801979891}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3036,7 +3036,7 @@ GameObject:
   - component: {fileID: 1847264492}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3141,7 +3141,7 @@ GameObject:
   - component: {fileID: 1874674949}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3246,7 +3246,7 @@ GameObject:
   - component: {fileID: 1901507786}
   m_Layer: 0
   m_Name: Respawn Point 1
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3351,7 +3351,7 @@ GameObject:
   - component: {fileID: 1961404582}
   m_Layer: 0
   m_Name: Respawn Point 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3453,7 +3453,7 @@ GameObject:
   - component: {fileID: 1989232585}
   m_Layer: 0
   m_Name: RespawnWall 12
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3466,15 +3466,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989232584}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000059604645, y: -0.7267252, z: -0.000000029802322, w: -0.6869283}
-  m_LocalPosition: {x: -2.2373712, y: 4.9943566, z: -4.142099}
+  m_LocalRotation: {x: -0, y: -0.6869284, z: 0.000000029802322, w: 0.72672516}
+  m_LocalPosition: {x: -0.8239192, y: 4.9943566, z: -2.4612472}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 443914127}
   - {fileID: 747069033}
   m_Father: {fileID: 1179620684}
-  m_LocalEulerAnglesHint: {x: 0, y: -266.775, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -86.775, z: 0}
 --- !u!1 &2115208651
 GameObject:
   m_ObjectHideFlags: 0
@@ -3486,7 +3486,7 @@ GameObject:
   - component: {fileID: 2115208652}
   m_Layer: 0
   m_Name: RespawnWall 2
-  m_TagString: Untagged
+  m_TagString: RespawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3709,6 +3709,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e71aae316b852640ac44293f55feac3, type: 3}
+--- !u!1001 &8733532927402621656
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.030106
+      objectReference: {fileID: 0}
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4801202
+      objectReference: {fileID: 0}
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.926025
+      objectReference: {fileID: 0}
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 261994440829138008, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465676484390082396, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_Name
+      value: Power-Up!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6395706121951528981, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be9f58e7088e991439c8a841eba02d63, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3719,3 +3780,4 @@ SceneRoots:
   - {fileID: 1725186274951074671}
   - {fileID: 7922925070674066882}
   - {fileID: 543450652659546209}
+  - {fileID: 8733532927402621656}

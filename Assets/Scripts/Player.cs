@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public GameObject player, explosion;
+    public PowerUp powerUp;
     public Transform respawnPoint;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,14 @@ public class Player : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        respawnPoint = other.transform;
+        if (other.gameObject.tag == "RespawnPoint")
+        {
+            respawnPoint = other.transform;
+        }
+        else
+        {
+            powerUp = other.GetComponent<PowerUp>();
+        }
     }
     public void OnCollisionEnter(Collision collision)
     {
