@@ -56,8 +56,6 @@ public class CarController : MonoBehaviour
             lerpSteering += lerpWheel / -10;
         }
 
-        Debug.Log(motor);
-        Debug.Log(carControll.ReadValue<Vector2>());
         //float motor = maxMotorTorque * Input.GetAxis("Vertical");
         //float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
 
