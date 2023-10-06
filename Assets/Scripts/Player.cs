@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
                 enemyCarController.maxMotorTorque = 800;
                 invincible = false;
                 itemPicked = false;
+                powerUp.SetActive(true);
             }
         }
     }
@@ -34,9 +35,10 @@ public class Player : MonoBehaviour
         {
             respawnPoint = other.transform;
         }
-        else
+        else if (other.gameObject.tag == "PowerUp" && itemPicked == false)
         {
             powerUp = other.GameObject();
+            powerUp.SetActive(false);
             timer = 0;
             itemPicked = true;
             int randomPower = Random.Range(0, 2);
@@ -62,22 +64,18 @@ public class Player : MonoBehaviour
             player.transform.rotation = respawnPoint.transform.rotation;
         }
     }
-
     public void Invulnerability()
     {
         invincible = true;
     }
-
     public void Slow()
     {
         enemyCarController.maxMotorTorque = 400;
     }
-
     public void IceFloor()
     {
 
     }
-
     public void Shell()
     {
 
