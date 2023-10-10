@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public GameObject player, explosion, powerUp;
     public CarController enemyCarController;
     public Transform respawnPoint;
+    public TextMeshPro textMeshPro;
 
     public bool invincible, itemPicked;
     public float timer;

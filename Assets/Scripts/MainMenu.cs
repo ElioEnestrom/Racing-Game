@@ -18,14 +18,14 @@ public class MainMenu : MonoBehaviour
         pauseMenu.performed += ctx => Pause();
         pauseMenu.Enable();
     }
-    public void PlayGame()
+    public void PlayGame(int level)
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + level);
     }
     public void Menu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("StartScene");
     }
     public void ExitGame()
     {
