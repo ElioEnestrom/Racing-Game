@@ -5,7 +5,7 @@ Unity Version and Packages: 2022.3.9f1, TextMeshPro, New Input System
 How to boot up in unity
 You start the game from the scene named "StartScene" where you will navigate through the menu and can choose from 
 a variety of levels. If you want to look at the code there is a "Scripts" folder in the "Assets" folder. Alternatively, 
-if you're looking for something else there is most likely a folder of that in the "Assets" folder too.
+if you're looking for something else there is most likely a folder of that in the "Assets" folder too. There will most likely appear some errors when you play but all of them don't have any actual impact on the gameplay.
 
 How to play/Pitch
 This game is a competitive racing game where you and a friend try to make your ways through the 

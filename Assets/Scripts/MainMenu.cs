@@ -9,10 +9,8 @@ public class MainMenu : MonoBehaviour
     public InputAction pauseMenu;
     public GameObject mainMenuObject;
 
-    public void Awake()
-    {
 
-    }
+    //These are all different functions that are called when you press on different buttons
     private void OnEnable()
     {
         pauseMenu.performed += ctx => Pause();
@@ -39,9 +37,5 @@ public class MainMenu : MonoBehaviour
     {
         mainMenuObject.SetActive(true);
         Time.timeScale = 0;
-    }
-    public void PlaySettings()
-    {
-
     }
 }

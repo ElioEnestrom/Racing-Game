@@ -7,6 +7,8 @@ TagManager:
   - Wall
   - RespawnPoint
   - PowerUp
+  - HalfWayPoint
+  - Goal
   layers:
   - Default
   - TransparentFX

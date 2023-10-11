@@ -19,8 +19,9 @@ public class CarController : MonoBehaviour
     public float maxMotorTorque; // maximum torque the motor can apply to a wheel
     public float maxSteeringAngle; //maximum steer angle the wheel can have
 
-    public InputAction carControll;
+    public InputAction carControll; //Used for the new unity input system
 
+    //Makes the wheels mirror the wheel colliders position and rotation
     public void ApplyLocalPositionToVisuals(WheelCollider collider)
     {
         if (collider.transform.childCount == 0)
@@ -43,10 +44,10 @@ public class CarController : MonoBehaviour
     }
     public void FixedUpdate()
     {
+        //A lerp used for steering and also helps with implementing unity's new input system
         lerpSteering = Mathf.Clamp(lerpSteering, 0, 1);
         lerpWheel = Mathf.Lerp(lerpMin, lerpMax, lerpSteering);
         lerpSteering += carControll.ReadValue<Vector2>().x * 0.1f;
-
 
         float motor = maxMotorTorque * carControll.ReadValue<Vector2>().y;
         float steering = maxSteeringAngle * lerpWheel;
